@@ -12,17 +12,17 @@
 
     <h1>
         <?php
-        $word = $_GET["word"];
-        $phrase = "$word is a bad word!";
+        
+        $phrase = "parola is a bad word!";
         echo $phrase;
         $length = " The length is " . strlen($phrase);
         echo $length;
         ?>
     </h1>
-    
+
     <h1>
         <?php
-        $new = str_replace("$word", "***", $phrase);
+        $new = str_replace("parola", "***", $phrase);
         echo $new;
         $length2 = " The length is " . strlen($new);
         echo $length2
