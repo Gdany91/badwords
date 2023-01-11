@@ -12,8 +12,8 @@
 
     <h1>
         <?php
-        
-        $phrase = "parola is a bad word!";
+        $word = $_GET['word'];
+        $phrase = "$word is a bad word!";
         echo $phrase;
         $length = " The length is " . strlen($phrase);
         echo $length;
